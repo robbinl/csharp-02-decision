@@ -11,7 +11,7 @@ namespace _08_TestBooleanOps
         static void Main(string[] args)
         {
             // Prompt for and read in an integer
-            Console.WriteLine("Enter an integer:");
+            Console.Write("Enter an integer: ");
             int num = int.Parse(Console.ReadLine());
 
             // Display message if number is divisible by 2 and 3.

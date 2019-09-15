@@ -20,7 +20,7 @@ namespace _06_StormLevel
                 "HURRICANE --- Category 5"
             };
 
-            Console.WriteLine("Enter Wind speed in mph:");
+            Console.Write("Enter Wind speed in mph as an integer: ");
             int speed = int.Parse(Console.ReadLine());
             int stormLevel = 0;
 

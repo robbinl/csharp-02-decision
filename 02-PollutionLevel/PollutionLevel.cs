@@ -16,11 +16,11 @@ namespace _02_PollutionLevel
                    level3,
                    average;
 
-            Console.WriteLine("Enter First Pollution level reading:");
+            Console.Write("Enter First Pollution level reading (10 to 100): ");
             level1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Second Pollution level reading:");
+            Console.Write("Enter Second Pollution level reading (10 to 100):");
             level2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Third Pollution level reading:");
+            Console.Write("Enter Third Pollution level reading (10 to 100): ");
             level3 = double.Parse(Console.ReadLine());
 
             average = (level1 + level2 + level3) / 3;

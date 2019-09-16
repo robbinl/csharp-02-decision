@@ -1,0 +1,7 @@
+Write a program to ask the user for the wind speed in mph as an integer. Using this wind speed tell the user the Category of storm with the following criteria:
+If the wind speed is less than 74 mph then STORM LEVEL: NONE
+If the wind speed is between and including 74 to 95 mph then STORM LEVEL: HURRICANE --- Category 1
+If the wind speed is between and including 96 to 110 mph then STORM LEVEL: HURRICANE --- Category 2
+If the wind speed is between and including 111 to 130 mph then STORM LEVEL: HURRICANE --- Category 3
+If the wind speed is between and including 131 to 155 mph then STORM LEVEL: HURRICANE --- Category 4
+If the wind speed is greater than 155 mph then STORM LEVEL: HURRICANE --- Category 5

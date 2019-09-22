@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_FirstDecision
+namespace _01_if_demo
 {
-    class FirstDecision
+    class if_demo
     {
         static void Main(string[] args)
         {

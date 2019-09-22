@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _20_SwitchDemo
+namespace _20_case_demo
 {
-    class SwitchDemo
+    class CaseDemo
     {
         static void Main(string[] args)
         {

@@ -28,26 +28,29 @@ namespace _12_2018F_IC_if_else_StudentScore
             int grade = int.Parse(Console.ReadLine());
 
             // Store our letter grade in a char.
-            char letterGrade;
-
+            string letterGrade;
+            char letterGradeChar;
             // Calculate our letter grade with If statements.
             if (grade > 100)
-                letterGrade = 'X';
-            else if (grade >= 80)
-                letterGrade = 'A';
-            else if (grade >= 70)
-                letterGrade = 'B';
-            else if (grade >= 60)
-                letterGrade = 'C';
-            else if (grade >= 50)
-                letterGrade = 'D';
-            else if (grade >= 0)
-                letterGrade = 'F';
+                {
+                letterGradeChar = 'X';
+                letterGrade = "X";
+                }
+            else if (grade >= 80 && grade <= 100)
+                letterGrade = "A";
+            else if (grade >= 70 && grade <= 79)
+                letterGrade = "B";
+            else if (grade >= 60 && grade <= 69)
+                letterGrade = "C";
+            else if (grade >= 50 && grade <= 59)
+                letterGrade = "D";
+            else if (grade >= 0 && grade <= 49)
+                letterGrade = "F";
             else
-                letterGrade = 'X';
+                letterGrade = "X";
 
             // If we have an invalid letter grade, let the user know.
-            if (letterGrade == 'X')
+            if (letterGrade == "X")
                 Console.WriteLine("Invalid score entered.");
             else
                 Console.WriteLine($"The letter Grade is:  {letterGrade}");

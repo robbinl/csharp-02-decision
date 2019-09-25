@@ -20,25 +20,25 @@ namespace _20_case_demo
             else if (num == 3)
                 Console.WriteLine("Three");
             else
-                Console.WriteLine("Way to mess it all up budday.");
+                Console.WriteLine("Invalid 1.");
 
             // Determine the number entered.
             switch (num)
             {
                 case 1:
-                    Console.WriteLine("ONE ONE ONE");
+                    Console.WriteLine("One One");
                     break;
 
                 case 2:
-                    Console.WriteLine("Two Two Two.");
+                    Console.WriteLine("Two Two");
                     break;
 
                 case 3:
-                    Console.WriteLine("That's a THREE baby!!!");
+                    Console.WriteLine("Three Three");
                     break;
 
                 default:
-                    Console.WriteLine("Way to mess it all up budday.");
+                    Console.WriteLine("Invalid 2.");
                     break;
             }
         }

@@ -15,22 +15,33 @@ namespace _24_PetFood
             Console.WriteLine("A, B, and C. Which do you want pricing for? ");
             //char foodGrade = char.Parse(Console.Read());
 
-            char foodGrade = Console.ReadKey().KeyChar;
-            Console.WriteLine();
+            string foodGrade = Console.ReadLine().ToUpper();
+            Console.WriteLine("Please enter a char");
+            char foodGradeChar = char.Parse(Console.ReadLine());
+
+            switch (foodGradeChar)
+            {
+                case 'A':
+                    Console.WriteLine(foodGradeChar);
+                    break;
+                default:
+                    Console.WriteLine("Hey");
+                    break;
+            }
 
             switch (foodGrade)
             {
-                case 'a':
-                case 'A':
+                
+                case "A":
                     Console.WriteLine("30c per lb.");
                     break;
 
-                case 'b':
-                case 'B':
+                
+                case "B":
                     Console.WriteLine("20c per lb.");
                     break;
-                case 'c':
-                case 'C':
+                
+                case "C":
                     Console.WriteLine("15c per lb.");
                     break;
 
